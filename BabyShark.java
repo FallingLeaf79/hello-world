@@ -11,7 +11,7 @@ public class BabyShark {
 
   public static void main(String[] args) {
     for (String shark : SHARK) {
-      for (int i = 0; i < 4; i++) {
+      for (int i = 0; i < 3; i++) {
         System.out.printf("%s shark ", shark);
         doo();
         System.out.println();
