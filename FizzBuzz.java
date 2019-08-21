@@ -6,8 +6,8 @@ public class FizzBuzz {
         if (words.length != multiples.length) {
             throw new Exception("Something went wrong there, pardner.");
         }
-        
-        for (int i = 1; i <= 1000; i++) {
+
+        for (int i = 1; i <= 100; i++) {
             StringBuilder stringBuilder = new StringBuilder();
 
             for (int j = 0; j < multiples.length; j++) {
