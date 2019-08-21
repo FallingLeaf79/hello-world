@@ -12,7 +12,7 @@ public class FizzBuzz {
         int limit = 100; //The program will print up to this number (inclusive).
 
         if (words.length != multiples.length) {
-            throw new Exception("Something went wrong there, pardner.");
+            throw new Exception("Something went wrong there, pardner."); //A specific kind of exception would be better, but I'm not sure which one :c
         }
 
         for (int i = 1; i <= limit; i++) {
